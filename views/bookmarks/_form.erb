@@ -1,0 +1,24 @@
+<dl> 
+  <dt>
+    <label for='bookmark_name'> Name: </label>
+  </dt>
+  <dd>
+    <input id='bookmark_name' type='text' name='bookmark[name]' value='<%= @bookmark.name %>' autofocus>
+  </dd> 
+
+  <dt>
+    <label for='bookmark_description'> Description: </label>
+  </dt>
+  <dd>
+    <input id='bookmark_description' type='text' name='bookmark[description]' value='<%= @bookmark.description %>'>
+  </dd> 
+
+  <dt>
+    <label for='bookmark_genre'> Genre: </label>
+  </dt>
+  <dd>
+    <input id='bookmark_genre' type='text' name='bookmark[genre]' value='<%= @bookmark.genre %>'>
+  </dd> 
+</dl>
+
+<div class='clear_both'></div>
